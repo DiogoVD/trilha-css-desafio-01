@@ -1,0 +1,19 @@
+*{
+    
+}
+
+.banner{
+    width: 1440px;
+    height: 605px;
+    border: 0px, 0px, 1px, 0px;
+    background-color: rgba(51, 168, 219, 1);
+    background-image: url(../trilha-css-desafio-01/assets/images/banner.png);
+    border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+.logo{
+    width: 248px;
+    height: 214px;
+    top: 27px;
+    left: 131px;
+
+}
