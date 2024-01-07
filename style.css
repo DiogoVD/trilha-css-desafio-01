@@ -1,20 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+
+
 body{
-    width: 1440px;
-    height: 2491px;
-    top: -225px;
-    left: 709px;
-    background-color: black;
-    color: aliceblue;
+    
 }
 
 .banner{
-    
-    width: 1440px;
-    height: 605px;
-    
-    background-image: url(../trilha-css-desafio-01/assets/images/banner.png), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 169, 221, 0.11) 100%);
-    border: 0px, 0px, 1px, 0px;
-    border-bottom: 1px solid rgba(51, 168, 219, 1);
+ 
+}
+
+.banner-content{
 
 }
 
@@ -22,33 +18,49 @@ body{
     width: 434px;
     height: 47px;
 
-    font-family: Raleway;
-    font-size: 40px;
-    font-weight: 900;
-    line-height: 47px;
-    letter-spacing: 0em;
-    text-align: left;
-
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; /*propriedade para alguns navegadores*/
+    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     color: transparent;
     background-clip: text;
-    background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
 
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    line-height: 46.96px;
+    font-size: 40px;
+    font-weight: 900;
+    white-space: nowrap;
 
+}
+
+.banner-content > p{
+    width: 510px;
+    height: 46px;
+
+    font-family: 'Raleway', sans-serif;
+    line-height: 23.48px;
+    font-size: 20px;
+    font-weight: 400;
+    white-space: break-spaces;
+    text-align: justify;
+    
+    
+}
+
+.banner-content > button{
 
 }
 
 .logo{
     width: 268px;
     height: 268px;
-    left: 121px;
-    background: rgba(0, 0, 0, 0.2);
 
+    border: 0px solid   rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2); 
 }
-.logo>img{
+
+.logo > img{
     width: 248px;
     height: 214px;
-    top: 27px;
-    left: 131px;
-
+    margin: 22px 10px;
 }
