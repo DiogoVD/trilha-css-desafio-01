@@ -106,9 +106,18 @@ body{
 
 /* Frame 2*/
 
+#course-content{
+    width: 1440px;
+    height: 325px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #course-content > h2{
     width: 477px;
     height: 38px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
 
@@ -140,18 +149,17 @@ body{
 
 }
 .module{
-    width: 281px;
+    width: 535px;
     height: 19px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    padding: 16px 127px 16px 127px;
+    padding: 16px 16px 16px 16px;
 
     font-family: 'Raleway';
     line-height: 18.78px;
     font-size: 16px;
     font-weight: 400;
-    
 
     color: rgba(255, 255, 255, 1);
     border: 1px solid #33A8DB;
@@ -163,6 +171,77 @@ body{
     
 }
 .module > span{
-    text-align: center;
     color: #33A8DB;
+}
+
+/* Frame 3*/
+
+#transform-world{
+    border: 1px solid rgba(51, 168, 219, 1);
+    width: 1440px;
+    height: 363px;
+
+    background-image: url("../assets/images/woman-code.png");
+    background-size: 1439px 960px;
+    background-attachment: fixed;
+}
+#transform-world > p{
+    width: 244px;
+    height: 141px;
+    margin-top: 111px;
+    margin-left: 198px;
+
+    font-family: 'Raleway';
+    line-height: 46.96px;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: lowercase;
+    text-align: left;
+
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 1);
+
+
+}
+
+/* Frame 4*/
+
+#professional-challenges{
+    width: 1440px;
+    height: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#professional-challenges > h2{
+    width: 746px;
+    height: 76px;
+    
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+
+    color:  rgba(51, 168, 219, 1);
+
+
+}
+#professional-challenges > img{
+    width: 659px;
+    height: 429px;
+
+}
+#professional-challenges > p{
+    width: 792px;
+    height: 76px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
 }
