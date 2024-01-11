@@ -3,7 +3,6 @@
 
 
 body{
-    max-width: 1445px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -12,7 +11,7 @@ body{
 }
 
 .banner{
-    width: 1440px;
+    
     height: 605px;
     border-bottom: 1px solid #1472B7;
 
@@ -29,7 +28,7 @@ body{
 }
 
 .banner-content > h1{
-    width: 436px;
+    
     height: 47px;
     margin-left: auto;
     margin-right: auto;
@@ -107,7 +106,7 @@ body{
 /* Frame 2*/
 
 #course-content{
-    width: 1440px;
+    
     height: 325px;
     margin-top: 140px;
     margin-bottom: 140px;
@@ -177,12 +176,13 @@ body{
 /* Frame 3*/
 
 #transform-world{
-    border: 1px solid #1472B7;
-    width: 1440px;
+    border-top: 1px solid #1472B7;
+    border-bottom: 1px solid #1472B7;
+    
     height: 363px;
 
     background-image: url("../assets/images/woman-code.png");
-    background-size: 1439px 960px;
+    background-size: 100% 960px;
     background-attachment: fixed;
     background-position: center;
 }
@@ -207,7 +207,7 @@ body{
 /* Frame 4*/
 
 #professional-challenges{
-    width: 1440px;
+    
     height: 820px;
     
 }
@@ -246,15 +246,15 @@ body{
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 1);
 
-
-
 }
 
 /* Frame 5*/
 footer{
-    border: 1px solid #1472B7;
-    width: 1440px;
+    border-top: 1px solid #1472B7;
+    
     height: 170px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+
 }
 .dio-logo{
     width: 310px;
